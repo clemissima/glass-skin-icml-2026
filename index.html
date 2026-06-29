@@ -4,39 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Glass Skin Between Sessions — Seoul Beauty Guide for ICML 2026</title>
-<meta name="description" content="A no-downtime Seoul beauty guide for female researchers at ICML 2026. Clinics, sequencing, Olive Young essentials — curated for conference week.">
+<meta name="description" content="A no-downtime Seoul beauty guide for female researchers at ICML 2026. Clinics, treatments, quiz, first-time Korea tips — curated for conference week.">
 <meta property="og:title" content="Glass Skin Between Sessions">
-<meta property="og:description" content="A no-downtime Seoul beauty guide for female researchers at ICML 2026.">
+<meta property="og:description" content="Seoul clinic guide for ICML 2026. Quiz, real links, first-time Korea tips. By @clemissima.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Glass Skin Between Sessions — Seoul Beauty Guide for ICML 2026">
-<meta name="twitter:description" content="A no-downtime Seoul beauty guide for female researchers at ICML 2026. Clinics, sequencing, Olive Young essentials — curated for conference week.">
+<meta name="twitter:description" content="Seoul clinic guide for ICML 2026. Quiz, real links, first-time Korea tips.">
 <meta name="twitter:creator" content="@clemissima">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --ink:        #1C1714;
-  --ink-soft:   #5C5450;
-  --ink-muted:  #9A9490;
-  --white:      #FFFFFF;
-  --cream:      #F8F4EE;
-  --shell:      #EDE7DC;
-  --jade:       #5A7A6A;
-  --jade-mid:   #8CAE9A;
-  --jade-light: #D8EBE2;
-  --gold:       #B08040;
-  --gold-light: #F2EAD8;
-  --hero-bg:    #1C1714;
-  --hero-text:  #F0EAE0;
-  --border:     #E4DED6;
+  --ink:         #1C1714;
+  --ink-soft:    #5A5450;
+  --ink-muted:   #9A9490;
+  --white:       #FFFFFF;
+  --cream:       #F8F4EE;
+  --shell:       #EDE7DC;
+  --jade:        #4E7A68;
+  --jade-mid:    #7DAE98;
+  --jade-light:  #D4EBDF;
+  --jade-xlight: #EBF5EF;
+  --gold:        #A87840;
+  --gold-light:  #F2EAD8;
+  --rose:        #C0808C;
+  --rose-light:  #F5E4E7;
+  --border:      #E2DCD4;
+  --hero-bg:     #1C1714;
+  --hero-fg:     #F0EAE0;
 }
 
-html {
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
-}
+html { font-size: 16px; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
 
 body {
   background: var(--cream);
@@ -45,485 +44,429 @@ body {
   line-height: 1.65;
 }
 
-/* ─── HERO ─── */
+/* ── HERO ── */
 .hero {
   background: var(--hero-bg);
-  padding: 64px 24px 56px;
+  padding: 60px 24px 52px;
   position: relative;
   overflow: hidden;
 }
-
 .hero::after {
   content: '서울';
   position: absolute;
-  bottom: -20px;
-  right: -8px;
+  bottom: -32px; right: -12px;
   font-family: Georgia, serif;
-  font-size: 180px;
-  color: rgba(255,255,255,0.025);
+  font-size: 200px;
+  color: rgba(255,255,255,0.03);
   pointer-events: none;
   line-height: 1;
-  letter-spacing: -0.02em;
 }
-
-.hero-inner {
-  max-width: 660px;
-  margin: 0 auto;
-}
-
+.hero-inner { max-width: 660px; margin: 0 auto; }
 .hero-eyebrow {
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--jade-mid);
-  font-weight: 600;
-  margin-bottom: 28px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  font-size: 11px; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--jade-mid);
+  font-weight: 600; margin-bottom: 24px;
+  display: flex; align-items: center; gap: 12px;
 }
-
 .hero-eyebrow::before {
-  content: '';
-  display: block;
-  width: 32px;
-  height: 1px;
-  background: var(--jade-mid);
-  flex-shrink: 0;
+  content: ''; display: block; width: 28px;
+  height: 1px; background: var(--jade-mid); flex-shrink: 0;
 }
-
 .hero h1 {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: clamp(32px, 6vw, 52px);
-  font-weight: normal;
-  color: var(--hero-text);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  margin-bottom: 24px;
-  text-wrap: balance;
+  font-size: clamp(30px, 6vw, 50px); font-weight: normal;
+  color: var(--hero-fg); line-height: 1.1;
+  letter-spacing: -0.02em; margin-bottom: 20px;
 }
-
 .hero-lede {
   font-size: clamp(15px, 2.5vw, 17px);
-  color: rgba(240, 234, 224, 0.72);
-  line-height: 1.75;
-  max-width: 560px;
+  color: rgba(240,234,224,0.72); line-height: 1.75; max-width: 540px;
 }
+.hero-lede em { font-style: italic; color: rgba(240,234,224,0.92); }
+.hero-byline { margin-top: 28px; font-size: 13px; color: var(--jade-mid); letter-spacing: 0.04em; }
 
-.hero-lede em {
-  font-style: italic;
-  color: rgba(240, 234, 224, 0.92);
-}
+/* ── WRAP ── */
+.wrap { max-width: 700px; margin: 0 auto; padding: 0 20px; }
 
-.hero-byline {
-  margin-top: 32px;
-  font-size: 13px;
-  color: var(--jade-mid);
-  letter-spacing: 0.04em;
-}
-
-/* ─── BODY WRAPPER ─── */
-.body-wrap {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 20px 80px;
-}
-
-/* ─── CONTEXT BANNER ─── */
-.context-banner {
+/* ── TABLE OF CONTENTS ── */
+.toc {
   background: var(--ink);
-  color: rgba(240, 234, 224, 0.85);
-  padding: 28px 28px 24px;
+  padding: 28px 24px;
   margin: 0 -20px 48px;
-  font-size: 14.5px;
-  line-height: 1.75;
 }
-
-.context-banner strong {
-  color: var(--hero-text);
+.toc-label {
+  font-size: 10px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--jade-mid);
+  font-weight: 700; margin-bottom: 14px;
 }
-
-.context-banner p + p {
-  margin-top: 12px;
+.toc-grid {
+  display: flex; flex-wrap: wrap; gap: 8px;
 }
-
-.peak-label {
+.toc-link {
   display: inline-block;
+  background: rgba(255,255,255,0.07);
+  color: rgba(240,234,224,0.8);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 7px 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.toc-link:hover {
   background: var(--jade);
   color: white;
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 3px 9px;
-  margin-left: 4px;
-  vertical-align: 1px;
+  border-color: var(--jade);
 }
 
-/* ─── SECTIONS ─── */
-.section {
-  margin-bottom: 56px;
-}
-
+/* ── SECTION CHROME ── */
+.section { margin-bottom: 56px; scroll-margin-top: 24px; }
 .section-header {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-  margin-bottom: 24px;
+  display: flex; align-items: baseline;
+  gap: 14px; margin-bottom: 20px;
 }
-
 .section-label {
-  font-size: 10px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--jade);
-  font-weight: 700;
-  white-space: nowrap;
-  flex-shrink: 0;
+  font-size: 10px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--jade);
+  font-weight: 700; white-space: nowrap; flex-shrink: 0;
 }
-
-.section-rule {
-  flex: 1;
-  height: 1px;
-  background: var(--border);
-}
-
-.section h2 {
+.section-rule { flex: 1; height: 1px; background: var(--border); }
+h2 {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: clamp(20px, 3.5vw, 26px);
-  font-weight: normal;
-  color: var(--ink);
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  margin-bottom: 18px;
+  font-weight: normal; color: var(--ink);
+  line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 16px;
+}
+p { font-size: 15px; color: var(--ink-soft); margin-bottom: 13px; line-height: 1.72; }
+p:last-child { margin-bottom: 0; }
+
+/* ── QUIZ ── */
+.quiz {
+  background: var(--ink);
+  padding: 36px 28px 32px;
+  margin: 0 -20px 56px;
+}
+.quiz-label {
+  font-size: 10px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--jade-mid);
+  font-weight: 700; margin-bottom: 6px;
+}
+.quiz h2 {
+  color: var(--hero-fg);
+  font-size: clamp(18px, 3vw, 24px);
+  margin-bottom: 6px;
+}
+.quiz-sub {
+  font-size: 14px; color: rgba(240,234,224,0.55);
+  margin-bottom: 28px; line-height: 1.5;
 }
 
-.section p {
-  font-size: 15px;
-  color: var(--ink-soft);
+.quiz-step { display: none; }
+.quiz-step.active { display: block; }
+
+.quiz-q {
+  font-size: 15px; font-weight: 600;
+  color: rgba(240,234,224,0.9);
+  margin-bottom: 16px; line-height: 1.4;
+}
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+.quiz-btn {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: rgba(240,234,224,0.82);
+  padding: 14px 16px;
+  font-size: 14px; line-height: 1.4;
+  cursor: pointer; text-align: left;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.quiz-btn:hover, .quiz-btn.selected {
+  background: var(--jade);
+  border-color: var(--jade);
+  color: white;
+}
+.quiz-btn .btn-icon { display: block; font-size: 20px; margin-bottom: 6px; }
+.quiz-btn .btn-label { display: block; font-weight: 600; margin-bottom: 2px; }
+.quiz-btn .btn-sub { display: block; font-size: 12px; opacity: 0.75; }
+
+.quiz-result { display: none; }
+.quiz-result.active { display: block; }
+
+.result-card {
+  background: var(--jade);
+  padding: 24px 22px 20px;
   margin-bottom: 14px;
 }
+.result-tag {
+  font-size: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: rgba(255,255,255,0.7);
+  font-weight: 700; margin-bottom: 8px;
+}
+.result-heading {
+  font-family: Georgia, serif;
+  font-size: 20px; font-weight: normal;
+  color: white; margin-bottom: 4px;
+}
+.result-clinic {
+  font-size: 13px; color: rgba(255,255,255,0.75);
+  margin-bottom: 16px;
+}
+.result-treatment {
+  background: rgba(0,0,0,0.2);
+  padding: 14px 16px; margin-bottom: 10px;
+}
+.result-treatment-name {
+  font-weight: 700; font-size: 14px;
+  color: white; margin-bottom: 4px;
+}
+.result-treatment-detail {
+  font-size: 13px; color: rgba(255,255,255,0.78);
+  line-height: 1.55;
+}
+.result-note {
+  font-size: 13px; color: rgba(255,255,255,0.65);
+  line-height: 1.6; font-style: italic;
+}
+.result-warning {
+  background: rgba(192,128,140,0.25);
+  border: 1px solid rgba(192,128,140,0.4);
+  padding: 10px 14px;
+  font-size: 13px; color: rgba(255,255,255,0.85);
+  line-height: 1.55; margin-top: 12px;
+}
 
-.section p:last-child { margin-bottom: 0; }
+.quiz-restart {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: rgba(240,234,224,0.6);
+  padding: 9px 18px; font-size: 13px;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.15s; margin-top: 16px;
+}
+.quiz-restart:hover {
+  border-color: var(--jade-mid);
+  color: var(--jade-mid);
+}
 
-/* ─── STEPS TIMELINE ─── */
-.steps {
+/* ── TIMELINE ── */
+.timeline {
   position: relative;
-  padding-left: 20px;
+  padding-left: 18px;
   border-left: 2px solid var(--border);
-  margin: 8px 0 0;
+}
+.t-item {
+  position: relative; padding: 0 0 30px 26px;
+}
+.t-item:last-child { padding-bottom: 0; }
+.t-dot {
+  position: absolute; left: -26px; top: 5px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--jade); border: 2px solid var(--jade-light);
+}
+.t-dot.hold { background: var(--border); border-color: var(--cream); }
+.t-label {
+  font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--jade);
+  font-weight: 700; margin-bottom: 4px;
+}
+.t-label.hold { color: var(--ink-muted); }
+.t-title {
+  font-family: Georgia, serif;
+  font-size: 16px; font-weight: normal;
+  color: var(--ink); margin-bottom: 7px;
+}
+.t-body {
+  font-size: 14.5px; color: var(--ink-soft);
+  line-height: 1.7; margin-bottom: 0;
 }
 
-.step-item {
-  position: relative;
-  padding: 0 0 32px 28px;
-}
-
-.step-item:last-child {
-  padding-bottom: 0;
-}
-
-.step-dot {
-  position: absolute;
-  left: -27px;
-  top: 4px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--jade);
-  border: 2px solid var(--jade-light);
-}
-
-.step-dot.zero {
-  background: var(--border);
-  border-color: var(--cream);
-}
-
-.step-num-label {
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--jade);
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.step-num-label.zero { color: var(--ink-muted); }
-
-.step-item h3 {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 17px;
-  font-weight: normal;
-  color: var(--ink);
-  margin-bottom: 8px;
-  line-height: 1.3;
-}
-
-.step-item p {
-  font-size: 14.5px;
-  color: var(--ink-soft);
-  line-height: 1.7;
-  margin-bottom: 0;
-}
-
-/* ─── NOTE CARD ─── */
-.note-card {
+/* ── NOTE CARD ── */
+.note {
   background: var(--gold-light);
   border-top: 2px solid var(--gold);
-  padding: 18px 20px 20px;
-  margin: 28px 0;
+  padding: 18px 20px; margin: 24px 0;
+}
+.note-label {
+  font-size: 10px; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--gold);
+  font-weight: 700; margin-bottom: 12px;
+}
+.note ul { list-style: none; padding: 0; }
+.note ul li {
+  font-size: 14px; color: var(--ink-soft);
+  line-height: 1.65; padding-left: 18px;
+  position: relative; margin-bottom: 8px;
+}
+.note ul li:last-child { margin-bottom: 0; }
+.note ul li::before {
+  content: '·'; position: absolute; left: 5px;
+  color: var(--gold); font-size: 20px; line-height: 1; top: 1px;
 }
 
-.note-card-label {
-  font-size: 10px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--gold);
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.note-card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.note-card ul li {
-  font-size: 14px;
-  color: var(--ink-soft);
-  line-height: 1.65;
-  padding-left: 18px;
-  position: relative;
-  margin-bottom: 8px;
-}
-
-.note-card ul li:last-child { margin-bottom: 0; }
-
-.note-card ul li::before {
-  content: '·';
-  position: absolute;
-  left: 6px;
-  color: var(--gold);
-  font-size: 18px;
-  line-height: 1;
-  top: 2px;
-}
-
-/* ─── CLINICS ─── */
-.clinic-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
+/* ── CLINICS ── */
 .clinic-card {
-  padding: 24px 0;
-  border-bottom: 1px solid var(--border);
+  border: 1px solid var(--border);
+  background: var(--white);
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.clinic-head {
+  padding: 20px 20px 0;
   display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 16px;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
   align-items: start;
 }
-
-.clinic-card:first-child {
-  border-top: 1px solid var(--border);
-}
-
 .clinic-num {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 36px;
-  font-weight: normal;
-  color: var(--border);
-  line-height: 1;
-  padding-top: 4px;
-  text-align: right;
-  user-select: none;
-}
-
-.clinic-content {}
-
-.clinic-name {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: var(--ink);
+  font-family: Georgia, serif; font-size: 11px;
+  letter-spacing: 0.1em; color: var(--ink-muted);
+  text-transform: uppercase; font-weight: normal;
   margin-bottom: 4px;
-  line-height: 1.25;
 }
-
-.clinic-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: center;
-  margin-bottom: 10px;
+.clinic-name {
+  font-family: Georgia, serif; font-size: 19px;
+  font-weight: normal; color: var(--ink); line-height: 1.2;
 }
-
-.clinic-loc {
-  font-size: 11px;
-  color: var(--ink-muted);
-  letter-spacing: 0.04em;
+.clinic-name a {
+  color: inherit; text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: border-color 0.15s;
 }
-
+.clinic-name a:hover { border-color: var(--jade); color: var(--jade); }
+.clinic-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .tag {
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 2px;
+  font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; font-weight: 700;
+  padding: 3px 9px; border-radius: 2px;
+}
+.tag-jade { background: var(--jade-light); color: var(--jade); }
+.tag-gold { background: var(--gold-light); color: var(--gold); }
+.tag-ink { background: var(--shell); color: var(--ink-soft); }
+.tag-rose { background: var(--rose-light); color: var(--rose); }
+.clinic-loc {
+  font-size: 12px; color: var(--ink-muted);
+  letter-spacing: 0.03em; margin-top: 5px;
+  display: flex; align-items: center; gap: 5px;
+}
+.clinic-body { padding: 14px 20px; }
+.clinic-body p { font-size: 14.5px; margin-bottom: 12px; }
+
+.treatments { padding: 0; }
+.treatment-row {
+  padding: 12px 0;
+  border-top: 1px solid var(--shell);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: start;
+}
+.treatment-name { font-size: 13px; font-weight: 700; color: var(--ink); margin-bottom: 2px; }
+.treatment-desc { font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+.treatment-price {
+  font-size: 12px; color: var(--jade);
+  font-weight: 600; white-space: nowrap; letter-spacing: 0.01em;
+  padding-top: 2px;
 }
 
-.tag-jade {
-  background: var(--jade-light);
-  color: var(--jade);
+.source-note {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 10px 20px 14px;
+  background: var(--jade-xlight);
+  font-size: 12px; color: var(--jade); line-height: 1.5;
 }
+.source-note strong { font-weight: 700; }
+.source-note a { color: var(--jade); font-weight: 600; }
 
-.tag-gold {
-  background: var(--gold-light);
-  color: var(--gold);
-}
-
-.tag-ink {
-  background: #EEEBE5;
-  color: var(--ink-soft);
-}
-
-.clinic-content p {
-  font-size: 14.5px;
-  color: var(--ink-soft);
-  line-height: 1.7;
-  margin-bottom: 0;
-}
-
-/* ─── PACK VS BUY ─── */
-.pvb-wrap {
-  margin: 24px 0;
-}
-
-.pvb-grid {
+/* ── SEOUL TIPS ── */
+.tips-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
-
-.pvb-col {
+.tip-card {
   background: var(--white);
   border: 1px solid var(--border);
-  overflow: hidden;
+  padding: 16px 18px;
 }
-
-.pvb-col-head {
-  background: var(--ink);
-  color: var(--hero-text);
-  padding: 10px 16px;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.pvb-col-head.skip {
-  background: var(--ink-soft);
-}
-
-.pvb-item {
-  padding: 9px 16px;
-  font-size: 13.5px;
-  color: var(--ink-soft);
-  line-height: 1.5;
-  border-top: 1px solid var(--border);
-}
-
-.pvb-note {
-  margin-top: 12px;
-  font-size: 13px;
-  color: var(--ink-muted);
-  line-height: 1.6;
-}
-
-.pvb-note strong { color: var(--ink-soft); }
+.tip-icon { font-size: 22px; margin-bottom: 8px; display: block; }
+.tip-title { font-size: 13px; font-weight: 700; color: var(--ink); margin-bottom: 5px; }
+.tip-body { font-size: 13px; color: var(--ink-soft); line-height: 1.6; }
+.tip-body a { color: var(--jade); }
+.tip-card.full { grid-column: 1 / -1; }
 
 @media (max-width: 480px) {
-  .pvb-grid {
-    grid-template-columns: 1fr;
-  }
+  .tips-grid { grid-template-columns: 1fr; }
+  .tip-card.full { grid-column: auto; }
 }
 
-/* ─── SAGE CALLOUT ─── */
-.sage-block {
-  background: var(--jade-light);
+/* ── PACK VS BUY ── */
+.pvb { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0; }
+.pvb-col { background: var(--white); border: 1px solid var(--border); overflow: hidden; }
+.pvb-head {
+  background: var(--ink); color: var(--hero-fg);
+  padding: 9px 14px; font-size: 11px;
+  letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600;
+}
+.pvb-item {
+  padding: 9px 14px; font-size: 13.5px; color: var(--ink-soft);
+  border-top: 1px solid var(--border); line-height: 1.45;
+}
+@media (max-width: 480px) { .pvb { grid-template-columns: 1fr; } }
+
+/* ── OLIVE YOUNG ── */
+.oy-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px;
+}
+.oy-item {
+  background: var(--white); border: 1px solid var(--border);
+  padding: 14px 16px;
+}
+.oy-product { font-size: 13px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+.oy-desc { font-size: 12.5px; color: var(--ink-soft); line-height: 1.5; }
+.oy-price { font-size: 11px; color: var(--jade); font-weight: 600; margin-top: 4px; }
+@media (max-width: 480px) { .oy-grid { grid-template-columns: 1fr; } }
+
+/* ── SAGE CALLOUT ── */
+.sage {
+  background: var(--jade-xlight);
   border-left: 3px solid var(--jade);
-  padding: 16px 20px;
-  margin: 20px 0;
-  font-size: 14px;
-  color: var(--ink-soft);
-  line-height: 1.7;
+  padding: 15px 18px; margin: 16px 0;
+  font-size: 14px; color: var(--ink-soft); line-height: 1.7;
 }
+.sage strong { color: var(--jade); }
 
-.sage-block strong {
-  color: var(--jade);
-  font-weight: 600;
-}
-
-/* ─── CTA ─── */
+/* ── CTA ── */
 .cta {
-  margin-top: 64px;
   background: var(--ink);
-  color: var(--hero-text);
-  padding: 48px 28px 44px;
-  margin-left: -20px;
-  margin-right: -20px;
+  padding: 48px 24px 44px;
+  margin: 48px -20px 0;
   text-align: center;
 }
-
-.cta p {
-  font-size: 16px;
-  color: rgba(240, 234, 224, 0.72);
-  line-height: 1.75;
-  max-width: 440px;
-  margin: 0 auto 28px;
-}
-
+.cta p { font-size: 15.5px; color: rgba(240,234,224,0.65); max-width: 440px; margin: 0 auto 26px; line-height: 1.75; }
 .cta-btn {
-  display: inline-block;
-  background: var(--jade);
-  color: white;
-  text-decoration: none;
-  padding: 14px 30px;
-  font-size: 13px;
-  letter-spacing: 0.06em;
-  font-weight: 600;
-  text-transform: uppercase;
-  transition: background 0.15s;
+  display: inline-block; background: var(--jade);
+  color: white; text-decoration: none;
+  padding: 14px 28px; font-size: 13px;
+  letter-spacing: 0.06em; font-weight: 600;
+  text-transform: uppercase; transition: background 0.15s;
 }
+.cta-btn:hover { background: #3D6455; }
 
-.cta-btn:hover { background: #4A6A5A; }
-
-/* ─── FOOTER ─── */
 footer {
   background: var(--hero-bg);
-  padding: 20px 24px;
+  padding: 18px 24px;
   margin: 0 -20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: flex; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px;
 }
+footer span { font-size: 12px; color: rgba(240,234,224,0.35); letter-spacing: 0.03em; }
+footer a { color: var(--jade-mid); text-decoration: none; }
 
-footer span {
-  font-size: 12px;
-  color: rgba(240, 234, 224, 0.4);
-  letter-spacing: 0.04em;
-}
-
-footer a {
-  color: var(--jade-mid);
-  text-decoration: none;
-}
-
-/* ─── LINK ─── */
 a { color: var(--jade); }
 </style>
 </head>
@@ -535,208 +478,700 @@ a { color: var(--jade); }
     <p class="hero-eyebrow">ICML 2026 · Seoul · Jul 6–11</p>
     <h1>Glass Skin<br>Between Sessions</h1>
     <p class="hero-lede">
-      You're going to Seoul to present your work. You're also going to be in Gangnam for six days—which happens to have the highest concentration of dermatology clinics on earth. <em>This guide covers the overlap.</em>
+      You're going to Seoul to present your work. You also happen to be in Gangnam for six days—which has the highest concentration of dermatology clinics on earth. <em>This guide covers what to book, what to skip, and how not to show up to your poster destroyed.</em>
     </p>
-    <p class="hero-byline">by @clemissima</p>
+    <p class="hero-byline">by @clemissima · updated June 2026</p>
   </div>
 </div>
 
-<div class="body-wrap">
+<div class="wrap">
 
-<!-- CONTEXT BANNER -->
-<div class="context-banner">
-  <p><strong>Seoul in July is 31°C and 85% humidity.</strong> COEX air conditioning is industrial and aggressive. Your skin will be sweating on the walk in and desiccating on the conference floor—both things are true simultaneously.</p>
-  <p>You'll also be photographed at your poster with 8 minutes notice. The goal of this guide is to sequence treatments so you <strong>peak Thursday</strong> <span class="peak-label">main conference</span>—look fine by Wednesday, don't arrive Monday with a red face from something you did too aggressively on Sunday.</p>
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+  <p class="toc-label">Jump to</p>
+  <div class="toc-grid">
+    <a class="toc-link" href="#quiz">✦ Find my treatment</a>
+    <a class="toc-link" href="#sequencing">When to go</a>
+    <a class="toc-link" href="#clinics">Clinic guide</a>
+    <a class="toc-link" href="#first-time">First time in Seoul</a>
+    <a class="toc-link" href="#pack-buy">Pack vs. buy</a>
+    <a class="toc-link" href="#olive-young">Olive Young hits</a>
+    <a class="toc-link" href="#conference-week">Week-of basics</a>
+  </div>
 </div>
 
-<!-- HOW TO PLAY IT -->
-<div class="section">
+<!-- QUIZ -->
+<div class="quiz" id="quiz">
+  <p class="quiz-label">Interactive</p>
+  <h2>Find your treatment</h2>
+  <p class="quiz-sub">Two questions. Takes 20 seconds.</p>
+
+  <!-- Step 1 -->
+  <div class="quiz-step active" id="step1">
+    <p class="quiz-q">What's your main skin thing right now?</p>
+    <div class="quiz-options">
+      <button class="quiz-btn" onclick="setQ1('glow')">
+        <span class="btn-icon">✨</span>
+        <span class="btn-label">I want to glow</span>
+        <span class="btn-sub">Hydration, brightness</span>
+      </button>
+      <button class="quiz-btn" onclick="setQ1('texture')">
+        <span class="btn-icon">🔍</span>
+        <span class="btn-label">Texture / pores</span>
+        <span class="btn-sub">Rough skin, enlarged pores</span>
+      </button>
+      <button class="quiz-btn" onclick="setQ1('pigment')">
+        <span class="btn-icon">🌑</span>
+        <span class="btn-label">Dark spots</span>
+        <span class="btn-sub">Pigmentation, uneven tone</span>
+      </button>
+      <button class="quiz-btn" onclick="setQ1('aging')">
+        <span class="btn-icon">⏳</span>
+        <span class="btn-label">Fine lines / firmness</span>
+        <span class="btn-sub">Anti-aging, lifting</span>
+      </button>
+      <button class="quiz-btn" onclick="setQ1('scars')">
+        <span class="btn-icon">🕳️</span>
+        <span class="btn-label">Acne scars</span>
+        <span class="btn-sub">Post-acne marks, texture</span>
+      </button>
+      <button class="quiz-btn" onclick="setQ1('unsure')">
+        <span class="btn-icon">🤷</span>
+        <span class="btn-label">No idea</span>
+        <span class="btn-sub">Just consult me</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="quiz-step" id="step2">
+    <p class="quiz-q">How much downtime can you handle this week?</p>
+    <div class="quiz-options" style="grid-template-columns: 1fr 1fr;">
+      <button class="quiz-btn" onclick="setQ2('none')">
+        <span class="btn-icon">💆</span>
+        <span class="btn-label">Zero downtime</span>
+        <span class="btn-sub">I'm presenting / at the booth</span>
+      </button>
+      <button class="quiz-btn" onclick="setQ2('some')">
+        <span class="btn-icon">🌹</span>
+        <span class="btn-label">A day of pinkness is fine</span>
+        <span class="btn-sub">I can plan around it</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="quiz-result" id="quiz-result">
+    <div class="result-card" id="result-card">
+      <!-- filled by JS -->
+    </div>
+    <button class="quiz-restart" onclick="restartQuiz()">← Start over</button>
+  </div>
+</div>
+
+<!-- SEQUENCING -->
+<div class="section" id="sequencing">
   <div class="section-header">
     <span class="section-label">Sequencing</span>
     <div class="section-rule"></div>
   </div>
-  <h2>How to Play It</h2>
-  <p>Seoul clinics run on same-day or next-day booking—you can realistically show up within 24 hours at most mid-tier clinics in Apgujeong or around COEX. That's the good news. The sequencing matters more than the specific clinic.</p>
+  <h2>When to go</h2>
+  <p>Seoul clinics run on same-day or next-day booking. You can walk into most mid-tier clinics in Apgujeong or near COEX within 24 hours. That's the good news. The sequencing matters more than which clinic you pick.</p>
 
-  <div class="steps">
-
-    <div class="step-item">
-      <div class="step-dot zero"></div>
-      <p class="step-num-label zero">Arrival</p>
-      <h3>Hold. Let your skin normalize.</h3>
-      <p>You land Sunday morning. Drink water, don't touch your face, don't book anything for Sunday. Jetlag makes skin reactive—injectables and lasers on day one are a bad idea. Cleanser, sheet mask, SPF. That's it. Give it 24 hours.</p>
+  <div class="timeline">
+    <div class="t-item">
+      <div class="t-dot hold"></div>
+      <p class="t-label hold">Sunday — Arrival</p>
+      <p class="t-title">Do nothing. Drink water.</p>
+      <p class="t-body">You land at 5am after a Friday night flight. Your skin is wrecked and reactive from recycled cabin air. No injections, no lasers, no aggressive anything today. Sheet mask, SPF, sleep. Give it 24 hours minimum before you make any treatment decisions.</p>
     </div>
-
-    <div class="step-item">
-      <div class="step-dot"></div>
-      <p class="step-num-label">Mon – Tue</p>
-      <h3>Hydration foundation</h3>
-      <p>First two days are for low-drama treatments: aqua peeling, hydra facial, Rejuran S booster (the lighter-touch version). These leave you glowy, not red. Book a consultation Monday afternoon after tutorials if you're feeling human. Walk-ins are generally accepted at most clinics by 4pm.</p>
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <p class="t-label">Mon – Tue</p>
+      <p class="t-title">Low-drama treatments only</p>
+      <p class="t-body">Aqua peel, hydrafacial, Rejuran S (the lighter version), basic skin booster. These leave you glowy, not red. Book a consultation Monday afternoon after tutorials if you feel human. Walk-ins are welcome at most clinics by 4pm.</p>
     </div>
-
-    <div class="step-item">
-      <div class="step-dot"></div>
-      <p class="step-num-label">Wednesday</p>
-      <h3>Light energy or nothing</h3>
-      <p>If you want LED phototherapy or a low-fluence HIFU facial (the kind with zero downtime), Wednesday is your window. Avoid anything that leaves you pink for more than a few hours—you have two full conference days ahead. Also a fine day to skip entirely and be at the booth.</p>
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <p class="t-label">Wednesday</p>
+      <p class="t-title">Light energy or skip it</p>
+      <p class="t-body">LED phototherapy, low-fluence HIFU facial—things with zero downtime. Anything that might leave you pink for more than a few hours: skip. Two full conference days left. Wednesday is also a fine day to be at the booth and do nothing.</p>
     </div>
-
-    <div class="step-item">
-      <div class="step-dot"></div>
-      <p class="step-num-label">Fri – Sat</p>
-      <h3>Push harder if you want</h3>
-      <p>Main conference ends Thursday. If you want anything more aggressive—Profhilo, Plinest, proper Ulthera—Friday is your day. You have the weekend to recover before your flight Sunday. Don't plan anything aggressive Thursday night; workshops are lower intensity but you're still on.</p>
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <p class="t-label">Fri – Sat</p>
+      <p class="t-title">Go harder if you want to</p>
+      <p class="t-body">Main conference ends Thursday. If you want Profhilo, full Rejuran, Sylfirm X, or Ulthera—Friday is your day. You have the whole weekend to recover before flying Sunday. Acne scar treatments especially: only book these Friday-Saturday, not before.</p>
     </div>
-
   </div>
 
-  <div class="note-card">
-    <p class="note-card-label">Important</p>
+  <div class="note">
+    <p class="note-label">Before you book</p>
     <ul>
-      <li>Avoid anything with 3+ days downtime before you present. No fractional lasers, no deep peels, nothing that leaves visible redness the next morning</li>
-      <li>Most clinics will ask if you're flying soon—answer honestly. Altitude + fresh injectables doesn't mix. Plan your last injectable day at least 72h before your return flight</li>
-      <li>Don't book an aggressive laser the night before your poster session. "The consultant said minimal downtime" does not account for conference-center lighting and a photographer. Save it for Friday</li>
+      <li>Avoid anything with 3+ days of downtime before you present. No fractional CO2, no deep peels, nothing that leaves redness the next morning</li>
+      <li>Tell the clinic when you're flying. Altitude + fresh injectables don't mix well—plan your last injectable 72h before your return flight</li>
+      <li>Don't book an aggressive laser the night before your poster session. "The consultant said minimal downtime" doesn't account for conference lighting and a photographer</li>
     </ul>
   </div>
 </div>
 
 <!-- CLINICS -->
-<div class="section">
+<div class="section" id="clinics">
   <div class="section-header">
     <span class="section-label">Clinics</span>
     <div class="section-rule"></div>
   </div>
-  <h2>Where to Go</h2>
-  <p>Specifically: clinics near COEX that do non-invasive skin treatments, with English-capable staff or LINE consultations, at prices that won't require a separate budget line.</p>
+  <h2>Where to actually go</h2>
+  <p>All of these have English-capable staff or easy LINE/WhatsApp booking. Prices in KRW with USD approximate. Varies by session length and whether they're running promos—these are ballparks.</p>
 
-  <div class="clinic-grid">
-
-    <div class="clinic-card">
-      <div class="clinic-num">1</div>
-      <div class="clinic-content">
-        <p class="clinic-name">Lamiche Dermatology</p>
-        <div class="clinic-meta">
-          <span class="clinic-loc">Apgujeong · 18 min walk</span>
+  <!-- PPEUM -->
+  <div class="clinic-card">
+    <div class="clinic-head">
+      <div>
+        <p class="clinic-num">Clinic 01</p>
+        <p class="clinic-name"><a href="https://www.gangnamunni.com/us/hospitals/256" target="_blank" rel="noopener">PPEUM Clinic</a></p>
+        <p class="clinic-loc">📍 Samsung-dong, Gangnam-gu · 5 min walk from COEX</p>
+        <div class="clinic-tags" style="margin-top:8px;">
           <span class="tag tag-jade">No downtime</span>
+          <span class="tag tag-gold">English</span>
+          <span class="tag tag-ink">Walk-ins welcome</span>
+        </div>
+      </div>
+    </div>
+    <div class="clinic-body">
+      <p>The convenience pick—five minutes from the COEX main entrance, which matters when you want to sneak out between sessions. Their whole thing is skin texture: pores, brightness, dullness. Results are subtle and immediate, which is exactly what you need mid-conference. They don't do dramatic volume work; that's not why you're here anyway. Instagram: <a href="https://www.instagram.com/ppeum_global_official/" target="_blank" rel="noopener">@ppeum_global_official</a>.</p>
+      <div class="treatments">
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Aqua Peel (signature)</p>
+            <p class="treatment-desc">Deep-clean exfoliation + extraction + hydration in one pass. Their most-requested treatment. 40–45 min, zero redness after.</p>
+          </div>
+          <span class="treatment-price">₩50–70K<br><span style="font-size:11px;color:var(--ink-muted)">~$36–50</span></span>
+        </div>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Aqua Peel + LED Finish</p>
+            <p class="treatment-desc">The stack they'll almost always recommend. LED calms and seals—good if your skin is reactive from travel. About 60 min total.</p>
+          </div>
+          <span class="treatment-price">₩80–110K<br><span style="font-size:11px;color:var(--ink-muted)">~$58–80</span></span>
+        </div>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Skin Regeneration Facial</p>
+            <p class="treatment-desc">Anti-aging facial, pore tightening focus. Good Mon–Tue arrival window.</p>
+          </div>
+          <span class="treatment-price">₩100–150K<br><span style="font-size:11px;color:var(--ink-muted)">~$72–108</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="source-note">
+      <span>📖</span>
+      <span>Widely recommended on <strong>r/AsianBeauty</strong> and <strong>r/koreatravel</strong> as the go-to walk-in clinic near COEX. <a href="https://www.gangnamunni.com/us/hospitals/256" target="_blank" rel="noopener">Read reviews + book on UNNI →</a></span>
+    </div>
+  </div>
+
+  <!-- LAMICHE -->
+  <div class="clinic-card">
+    <div class="clinic-head">
+      <div>
+        <p class="clinic-num">Clinic 02</p>
+        <p class="clinic-name"><a href="https://drlamiche.com" target="_blank" rel="noopener">Lamiche Dermatology</a></p>
+        <p class="clinic-loc">📍 Songpa-gu · 20 min subway from COEX (worth it)</p>
+        <div class="clinic-tags" style="margin-top:8px;">
+          <span class="tag tag-jade">No downtime options</span>
           <span class="tag tag-gold">Book ahead</span>
+          <span class="tag tag-ink">WhatsApp booking</span>
         </div>
-        <p>The answer when researchers ask where to start. Specializes in Rejuran (PDRN skin boosters) and aqua peeling stacks—you can walk in looking tired and leave looking like you slept. Their consultants are enthusiastic about stacking; you don't have to do everything in one session. If they say there's no availability to split, push—usually there is. English consultation available, LINE booking works fine.</p>
       </div>
     </div>
-
-    <div class="clinic-card">
-      <div class="clinic-num">2</div>
-      <div class="clinic-content">
-        <p class="clinic-name">PPEUM Aesthetic Clinic</p>
-        <div class="clinic-meta">
-          <span class="clinic-loc">Samsung-dong · 5 min walk</span>
-          <span class="tag tag-jade">No downtime</span>
+    <div class="clinic-body">
+      <p>Established 2001, doing ~2,500 treatments a month. The place for Rejuran if you've been seeing it all over TikTok and actually want to try it. Their consultants push stacking (multiple treatments in one session)—that's standard practice here, not a upsell. You genuinely don't have to do everything at once. If they say there's no availability to split, push back; usually there is. Free consultation with any treatment. Book via WhatsApp: +1 657-508-8544 or <a href="https://drlamiche.com" target="_blank" rel="noopener">drlamiche.com</a>.</p>
+      <div class="treatments">
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Rejuran S (Salmon DNA booster)</p>
+            <p class="treatment-desc">The lighter-touch version—ask for this if it's your first time. Repairs skin barrier, improves texture and hydration. Some micro-needle marks for a few hours, gone by next day. <em>This is the treatment that's all over TikTok Korea.</em></p>
+          </div>
+          <span class="treatment-price">₩180–300K<br><span style="font-size:11px;color:var(--ink-muted)">~$130–220</span></span>
         </div>
-        <p>Closest to the venue—five minutes from the COEX main entrance. Useful if you want to sneak out between sessions for a 45-minute treatment. Their focus is skin texture: pores, brightness, tone. Results are subtle and immediate, which is exactly what you want mid-conference. Doesn't do dramatic volume work—not what you're here for anyway.</p>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Juvelook (PLLA + HA booster)</p>
+            <p class="treatment-desc">Hybrid booster—hyaluronic acid for immediate plumping, PLLA for long-term collagen. Great for pore tightening and acne scar improvement. Results build over weeks but you'll notice immediately. Minor pinkness 12–24h.</p>
+          </div>
+          <span class="treatment-price">₩180–280K<br><span style="font-size:11px;color:var(--ink-muted)">~$130–200</span></span>
+        </div>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">PicoSure laser</p>
+            <p class="treatment-desc">For pigmentation and dark spots. 1–2 days redness. Book for Friday only.</p>
+          </div>
+          <span class="treatment-price">₩200–400K<br><span style="font-size:11px;color:var(--ink-muted)">~$145–290</span></span>
+        </div>
       </div>
     </div>
+    <div class="source-note">
+      <span>📖</span>
+      <span>Full blog writeup from a first-timer: <a href="https://thedanaedition.com/travel/lamiche-dermatology-my-laser-treatment-experience-in-south-korea/" target="_blank" rel="noopener">The Dana Edition review →</a> · <a href="https://drlamiche.com" target="_blank" rel="noopener">drlamiche.com</a></span>
+    </div>
+  </div>
 
-    <div class="clinic-card">
-      <div class="clinic-num">3</div>
-      <div class="clinic-content">
-        <p class="clinic-name">Arumdaun Nara Skin Clinic</p>
-        <div class="clinic-meta">
-          <span class="clinic-loc">Apgujeong · high-volume</span>
-          <span class="tag tag-ink">Korean-local</span>
+  <!-- JIWOO -->
+  <div class="clinic-card">
+    <div class="clinic-head">
+      <div>
+        <p class="clinic-num">Clinic 03</p>
+        <p class="clinic-name">Jiwoo Skin Clinic</p>
+        <p class="clinic-loc">📍 Gangnam Station Exit 12 · ~15 min subway from COEX</p>
+        <div class="clinic-tags" style="margin-top:8px;">
+          <span class="tag tag-jade">English / Japanese / Chinese</span>
+          <span class="tag tag-rose">Acne scar specialist</span>
         </div>
-        <p>A lot of foreigners overlook this one because it doesn't market in English—the trade is a translation sheet and an assembly-line pace, but the technicians are excellent and prices are genuinely lower. Good for Glutathione IV drips, basic skin boosters, vitamin drips. Book through Naver or walk in at opening.</p>
       </div>
     </div>
-
-    <div class="clinic-card">
-      <div class="clinic-num">4</div>
-      <div class="clinic-content">
-        <p class="clinic-name">JW Dermatology</p>
-        <div class="clinic-meta">
-          <span class="clinic-loc">Gangnam-gu</span>
-          <span class="tag tag-gold">English staff</span>
-          <span class="tag tag-gold">Book ahead</span>
+    <div class="clinic-body">
+      <p>Officially designated by Korea's Ministry of Justice as an outstanding medical institution for foreign patients, which is a real thing you can look up. Specializes in acne scar revision—if that's your concern, this is the place. Also strong on Sylfirm X and lifting programs. Call or walk in; English, Japanese, and Chinese support at reception.</p>
+      <div class="treatments">
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Pico Toning (low-fluence)</p>
+            <p class="treatment-desc">For pigmentation without the downtime of full Pico. Some redness for 2–4h. Don't do the day before your poster—Wednesday is fine.</p>
+          </div>
+          <span class="treatment-price">₩100–160K<br><span style="font-size:11px;color:var(--ink-muted)">~$72–115</span></span>
         </div>
-        <p>If you want someone who will explain what they're doing in full sentences, JW has English-speaking consultants used to first-time patients. More expensive than the local clinics—you're paying for the hand-holding. Particularly good for people who haven't done Korean skin treatments before and want to ask questions before someone injects things into their face. Consultation is free if you book a treatment.</p>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Sylfirm X</p>
+            <p class="treatment-desc">Radio frequency microneedling—their acne scar specialty. Gentler than CO2 fractional. Some redness next day. Book for Friday only.</p>
+          </div>
+          <span class="treatment-price">₩280–450K<br><span style="font-size:11px;color:var(--ink-muted)">~$200–325</span></span>
+        </div>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Rejuran + Sylfirm X combo</p>
+            <p class="treatment-desc">Their most-recommended acne scar stack. 2–3 days of redness. Friday afternoon to fly Sunday is the only viable window at this conference.</p>
+          </div>
+          <span class="treatment-price">₩450–650K<br><span style="font-size:11px;color:var(--ink-muted)">~$325–470</span></span>
+        </div>
       </div>
     </div>
+    <div class="source-note">
+      <span>📖</span>
+      <span>Gangnam Station Exit 12. Walk-ins OK; call ahead for specialty procedures. English-speaking staff on request.</span>
+    </div>
+  </div>
 
+  <!-- D&A -->
+  <div class="clinic-card">
+    <div class="clinic-head">
+      <div>
+        <p class="clinic-num">Clinic 04</p>
+        <p class="clinic-name"><a href="https://koreaskinclinic.net/en/" target="_blank" rel="noopener">D&A Dermatology</a></p>
+        <p class="clinic-loc">📍 Gangnam · foreigners specifically welcome</p>
+        <div class="clinic-tags" style="margin-top:8px;">
+          <span class="tag tag-jade">English-first</span>
+          <span class="tag tag-ink">Free consultation</span>
+        </div>
+      </div>
+    </div>
+    <div class="clinic-body">
+      <p>The "I don't know what I want and don't want to get pushed into things" pick. Explicitly designed for foreign patients—thorough consultations, transparent pricing, no pressure. Start here if this is your first time at a Korean dermatology clinic and you want someone to actually look at your skin and tell you what's worth spending on. Everything is in English.</p>
+      <div class="treatments">
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Skin analysis consultation</p>
+            <p class="treatment-desc">Free with any treatment booking. They use digital skin analysis devices—you'll get an actual read on your pores, hydration, and pigmentation, not just a vibe assessment.</p>
+          </div>
+          <span class="treatment-price">Free</span>
+        </div>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Custom treatment plan</p>
+            <p class="treatment-desc">Based on consultation. Can include aqua peel, Rejuran, skin boosters, or laser depending on your skin—they'll tell you what's actually useful vs. unnecessary for your timeline.</p>
+          </div>
+          <span class="treatment-price">Varies</span>
+        </div>
+      </div>
+    </div>
+    <div class="source-note">
+      <span>📖</span>
+      <span>Best reviewed foreigner-first clinic on English-language Korea travel boards. <a href="https://koreaskinclinic.net/en/" target="_blank" rel="noopener">koreaskinclinic.net/en →</a></span>
+    </div>
+  </div>
+
+  <!-- YANN -->
+  <div class="clinic-card">
+    <div class="clinic-head">
+      <div>
+        <p class="clinic-num">Clinic 05</p>
+        <p class="clinic-name"><a href="https://www.gangnamskincareclinic.com/" target="_blank" rel="noopener">YANN Skin Clinic (Gangnam)</a></p>
+        <p class="clinic-loc">📍 Gangnam · 14 years, 1:1 interpreter service</p>
+        <div class="clinic-tags" style="margin-top:8px;">
+          <span class="tag tag-jade">No downtime options</span>
+          <span class="tag tag-gold">1:1 Interpreter</span>
+        </div>
+      </div>
+    </div>
+    <div class="clinic-body">
+      <p>Premium pricing but they have a dedicated interpreter for every appointment—you're not using Google Translate and hoping. 14 years focused on cosmetic dermatology, good for skin boosters and anti-aging programs for 30s+. If you want to have an actual conversation about what you're doing to your face, this is the place for it.</p>
+      <div class="treatments">
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Skinbooster (Curenex / Celosome)</p>
+            <p class="treatment-desc">Hydration injection—plumping, luminosity, zero downtime. Great for 30s+. Different from Rejuran (this is purely HA-based, no DNA repair component).</p>
+          </div>
+          <span class="treatment-price">₩150–280K<br><span style="font-size:11px;color:var(--ink-muted)">~$108–200</span></span>
+        </div>
+        <div class="treatment-row">
+          <div>
+            <p class="treatment-name">Anti-aging facial program</p>
+            <p class="treatment-desc">Personalized program from consultation—typically Rejuran or skinbooster + laser toning + finishing treatment.</p>
+          </div>
+          <span class="treatment-price">₩300–600K<br><span style="font-size:11px;color:var(--ink-muted)">~$215–430</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="source-note">
+      <span>📖</span>
+      <span><a href="https://www.gangnamskincareclinic.com/" target="_blank" rel="noopener">gangnamskincareclinic.com →</a> · Book via website or WhatsApp</span>
+    </div>
+  </div>
+</div>
+
+<!-- FIRST TIME SEOUL -->
+<div class="section" id="first-time">
+  <div class="section-header">
+    <span class="section-label">Seoul 101</span>
+    <div class="section-rule"></div>
+  </div>
+  <h2>First time in Korea — actual useful stuff</h2>
+  <p>Not "visit Gyeongbokgung Palace!" tips. Things that will save you time and make you less confused in the first 48 hours.</p>
+
+  <div class="tips-grid">
+    <div class="tip-card">
+      <span class="tip-icon">🗺️</span>
+      <p class="tip-title">Download Naver Maps before you land</p>
+      <p class="tip-body">Not Google Maps—<a href="https://myfirstkorea.com/how-to-use-naver-maps-kakao-maps-in-seoul/" target="_blank" rel="noopener">Naver Maps</a> is dramatically better for walking to specific buildings and finding clinic floors. Google Maps has a real lag on Korean addresses. Download while you still have data.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">🚇</span>
+      <p class="tip-title">T-money card from the airport</p>
+      <p class="tip-body">Buy at any CU or 7-Eleven inside the arrivals terminal. ₩3,000 deposit, load ₩50,000 to start. Works on all subways, buses, even some taxis. COEX = Samseong station, Line 2 (green line), Exit 5 or 6.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">🚖</span>
+      <p class="tip-title">Kakao T for taxis</p>
+      <p class="tip-body">It's the Uber equivalent. Set it up before you land. Most drivers don't speak English—screenshot the destination address in Korean and show them. Clinics usually have their address in Korean on their website; grab it.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">🏪</span>
+      <p class="tip-title">Convenience stores are genuinely good</p>
+      <p class="tip-body">CU, GS25, 7-Eleven—the food is real. Triangular kimbap (₩1,500), egg mayo sandwiches, ramen, hot foods. Not a backup option; an actual meal. Also: ATMs, cell charging cables, umbrellas, and handheld fans.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">🌡️</span>
+      <p class="tip-title">July heat is serious — prepare for it</p>
+      <p class="tip-body">30°C+, 80%+ humidity. Get a handheld mini-fan (핸디형 선풍기) from Daiso on day one—₩2,000 to ₩5,000. COEX AC is arctic inside, so bring a layer. You will sweat walking in and freeze within minutes of arriving.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">💳</span>
+      <p class="tip-title">Payments — card mostly works</p>
+      <p class="tip-body">Apple Pay works almost everywhere now. Still carry ₩50,000–100,000 cash for smaller spots and street vendors. Clinics almost always take card. No tipping—anywhere, for anything. It's genuinely not the culture here.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">📱</span>
+      <p class="tip-title">Google Translate camera mode</p>
+      <p class="tip-body">Point it at any menu or sign—works well in Korean. More reliable than trying to type. Also useful at the clinic if they hand you a paper consultation form in Korean only.</p>
+    </div>
+    <div class="tip-card">
+      <span class="tip-icon">🚪</span>
+      <p class="tip-title">Exit numbers matter more than you think</p>
+      <p class="tip-body">A Seoul subway station can have 15+ exits spread over several blocks. Wrong exit = 15-minute walk in 31°C heat. Always check which exit number on Naver Maps before you come up.</p>
+    </div>
+    <div class="tip-card full">
+      <span class="tip-icon">✈️</span>
+      <p class="tip-title">Before you leave: K-ETA</p>
+      <p class="tip-body">US passport holders need a K-ETA (Korea Electronic Travel Authorization)—$10, done online at <a href="https://www.k-eta.go.kr" target="_blank" rel="noopener">k-eta.go.kr</a>, takes up to 72h, valid 2 years. Apply at least a week before you fly. It's not a visa but you can't board without it. Also: Samseong station (Line 2, green) is your COEX subway stop. Exit 5 for the mall entrance.</p>
+    </div>
+  </div>
+
+  <div class="sage" style="margin-top:16px;">
+    <strong>Useful Korean for the clinic:</strong> 저는 민감한 피부입니다 = "I have sensitive skin." 이것은 처음이에요 = "This is my first time." Screenshot both and show them—every clinic will appreciate you making the effort, and it sets the right expectations.
   </div>
 </div>
 
 <!-- PACK VS BUY -->
-<div class="section">
+<div class="section" id="pack-buy">
   <div class="section-header">
     <span class="section-label">Logistics</span>
     <div class="section-rule"></div>
   </div>
-  <h2>Pack vs. Buy in Seoul</h2>
-  <p>General rule: sunscreen, actives, and sheet masks are dramatically cheaper in Seoul. Don't fill your carry-on. Do pack: whatever prescription skincare you use, lip balm, any fragrance-free formulas you rely on for sensitivity.</p>
+  <h2>Pack vs. buy in Seoul</h2>
+  <p>Don't waste carry-on space on anything you can get cheaper and better at Olive Young. Do bring: prescriptions, anything fragrance-free you need for sensitivity, lip balm (shockingly hard to find good ones in Korea).</p>
 
-  <div class="pvb-wrap">
-    <div class="pvb-grid">
-      <div class="pvb-col">
-        <div class="pvb-col-head">Pack from home</div>
-        <div class="pvb-item">Prescription retinoids / tretinoin</div>
-        <div class="pvb-item">Fragrance-free formulas (if sensitive)</div>
-        <div class="pvb-item">Lip balm — very hard to find good ones</div>
-        <div class="pvb-item">Micellar / cleansing water</div>
-        <div class="pvb-item">Mid-cycle actives you can't pause</div>
-      </div>
-      <div class="pvb-col">
-        <div class="pvb-col-head">Buy at Olive Young</div>
-        <div class="pvb-item">SPF — dramatically better + cheaper</div>
-        <div class="pvb-item">Sheet masks in bulk 10-packs</div>
-        <div class="pvb-item">Snail mucin / centella serums</div>
-        <div class="pvb-item">Sunsticks and UV patches</div>
-        <div class="pvb-item">Tinted SPF / cushion compacts</div>
-      </div>
+  <div class="pvb">
+    <div class="pvb-col">
+      <div class="pvb-head">Pack from home</div>
+      <div class="pvb-item">Prescription retinoids / tretinoin</div>
+      <div class="pvb-item">Fragrance-free moisturizer if you're sensitive</div>
+      <div class="pvb-item">Lip balm — genuinely hard to find here</div>
+      <div class="pvb-item">Mid-cycle actives you can't interrupt</div>
+      <div class="pvb-item">Any tool (gua sha, roller)</div>
     </div>
-    <p class="pvb-note"><strong>Skip or ship home:</strong> Heavy oils, thick glass jars, vitamin C serums (oxidize in transit), most "viral K-beauty" products that are usually overhyped once you're actually there.</p>
+    <div class="pvb-col">
+      <div class="pvb-head">Buy at Olive Young</div>
+      <div class="pvb-item">SPF — way better selection + cheaper</div>
+      <div class="pvb-item">Sheet masks in 10-packs</div>
+      <div class="pvb-item">Centella / snail serum</div>
+      <div class="pvb-item">Sunstick, UV patch, cushion compact</div>
+      <div class="pvb-item">Eye patches and overnight masks</div>
+    </div>
   </div>
+  <p style="font-size:13px;color:var(--ink-muted);margin-top:10px;">Skip or order after you're home: heavy glass-jar products, vitamin C serums (they oxidize in transit), anything "viral" on TikTok that you haven't researched — usually overhyped once you're actually in the store.</p>
 </div>
 
 <!-- OLIVE YOUNG -->
-<div class="section">
+<div class="section" id="olive-young">
   <div class="section-header">
     <span class="section-label">Shopping</span>
     <div class="section-rule"></div>
   </div>
-  <h2>Olive Young</h2>
-  <p>It's a pharmacy-meets-beauty-store chain and it is everywhere. There's one 400m from COEX, another inside COEX itself. Think CVS if CVS were good. The selection is enormous and prices are real, not tourist markup. Best move is to walk the aisles Tuesday or Wednesday once you've settled in. The SPF wall alone is worth it.</p>
+  <h2>Olive Young — what to actually buy</h2>
+  <p>Pharmacy-meets-beauty-store chain, everywhere. One 400m from COEX, another inside the mall. The SPF wall alone is worth the trip. Staff won't approach you—show them your face on your phone with a Google Translate note if you want help ("건성 피부" = dry skin, "지성 피부" = oily skin).</p>
 
-  <div class="sage-block">
-    <p><strong>Actual useful finds:</strong> Beauty of Joseon Relief Sun (rice + probiotics, no white cast), Skin1004 Madagascar Centella Asiatica toner, COSRX Snail 96 Mucin Power Essence, Dr. Jart+ Cicapair Tiger Grass Serum, Round Lab 1025 Dokdo Toner. All available online post-trip but 30–50% cheaper in store.</p>
+  <div class="oy-grid">
+    <div class="oy-item">
+      <p class="oy-product">Beauty of Joseon Relief Sun</p>
+      <p class="oy-desc">Rice + probiotics formula, no white cast, genuinely comfortable to wear. The one that's always sold out online. Get 2.</p>
+      <p class="oy-price">~₩12,000 ($9)</p>
+    </div>
+    <div class="oy-item">
+      <p class="oy-product">COSRX Snail 96 Mucin Essence</p>
+      <p class="oy-desc">Skin repair and hydration. The reddit r/AsianBeauty staple. In-store is about 40% cheaper than US Amazon.</p>
+      <p class="oy-price">~₩16,000 ($12)</p>
+    </div>
+    <div class="oy-item">
+      <p class="oy-product">Skin1004 Centella Toner</p>
+      <p class="oy-desc">Calming toner for post-treatment redness or just reactive travel skin. Fragrance-free.</p>
+      <p class="oy-price">~₩14,000 ($10)</p>
+    </div>
+    <div class="oy-item">
+      <p class="oy-product">Round Lab 1025 Dokdo Toner</p>
+      <p class="oy-desc">Mineral-rich, barrier-supporting. Good for anyone whose skin goes haywire mid-travel.</p>
+      <p class="oy-price">~₩18,000 ($13)</p>
+    </div>
+    <div class="oy-item">
+      <p class="oy-product">Dr. Jart+ Cicapair Serum</p>
+      <p class="oy-desc">Tiger grass + centella. Redness-calming, good for post-clinic recovery days. In-store is notably cheaper than Sephora.</p>
+      <p class="oy-price">~₩35,000 ($25)</p>
+    </div>
+    <div class="oy-item">
+      <p class="oy-product">Anua Heartleaf Toner Pad</p>
+      <p class="oy-desc">Tiktok's current obsession and actually good—pore minimizing, mild exfoliation, zero effort. Use at night.</p>
+      <p class="oy-price">~₩18,000 ($13)</p>
+    </div>
   </div>
 
-  <p>Staff won't approach you unless you ask. If you want a rec, show them your face on your phone with a translated note ("my skin is dry / oily / sensitive"). It works, genuinely.</p>
+  <div class="sage" style="margin-top:16px;">
+    <strong>Pro tip from r/AsianBeauty:</strong> Check the Olive Young app (downloadable in Korea) before you go in—they run 1+1 deals constantly and the deals change weekly. What's free-with-purchase this week is unpredictable but often really good.
+  </div>
 </div>
 
-<!-- CONFERENCE BASICS -->
-<div class="section">
+<!-- CONFERENCE WEEK -->
+<div class="section" id="conference-week">
   <div class="section-header">
-    <span class="section-label">Week-Of</span>
+    <span class="section-label">Week-of</span>
     <div class="section-rule"></div>
   </div>
-  <h2>Conference Week Basics</h2>
-  <p>The goal is not to overdo it. Korean routines can be 10 steps—yours this week is 4: cleanser, toner or essence, SPF in the morning, sheet mask at night. Your skin needs to be stable while you're treating and presenting, not in an adjustment cycle.</p>
-
-  <p>COEX air conditioning is aggressive. Carry a face mist and actually use it—Klairs Fundamental Ampule Mist or any hydrating mist from Olive Young. The sheet mask at night genuinely matters; don't skip it on the days you present.</p>
-
-  <p>If you want minimal coverage for poster nights or dinner: a tinted SPF from Korea is the move. Light, non-greasy, photographs well under conference lighting. Nothing reads worse than full-coverage Western foundation over conference-dry skin.</p>
+  <h2>Conference week skincare — keep it simple</h2>
+  <p>You're getting treatments + presenting + attending dinners. Your skin needs to be stable, not in the middle of an adjustment cycle. Korean routines can be 10 steps — yours this week is four: cleanser, hydrating toner or essence, SPF in the morning, sheet mask at night.</p>
+  <p>COEX AC is relentless. Carry a face mist and actually use it. Klairs Fundamental Ampule Mist is good; any calming mist from Olive Young works. The sheet mask at night is not optional on the days you present — your skin needs that window to recover from the cold dry air.</p>
+  <p>For coverage: a tinted SPF from Korea is the right call for poster sessions and dinner. Lightweight, non-greasy, photographs well. Nothing reads worse under conference lighting than full-coverage Western foundation over dehydrated skin.</p>
 </div>
 
 <!-- CTA -->
 <div class="cta">
-  <p>i made this for a few friends heading to icml and figured it might help more people. if you go and find something better—or try one of these and it was a disaster—tell me</p>
+  <p>i made this for a few friends heading to icml and figured it might be useful to more people. if you go and find something better, or try one of these and it was a disaster, find me</p>
   <a class="cta-btn" href="https://x.com/clemissima" target="_blank" rel="noopener">Find me at ICML &nbsp;@clemissima</a>
 </div>
 
 <footer>
   <span>@clemissima · June 2026</span>
-  <span>not sponsored, just went</span>
+  <span>not sponsored · sources: r/AsianBeauty, r/koreatravel, <a href="https://creatrip.com/en/blog/14547">Creatrip</a>, <a href="https://travel-stained.com/skin-treatments-in-korea/">Travel-Stained</a></span>
 </footer>
 
 </div>
+
+<script>
+var q1 = null;
+
+var results = {
+  glow_none: {
+    heading: "You want Aqua Peel",
+    clinic: "PPEUM Clinic — 5 min from COEX",
+    link: "https://www.gangnamunni.com/us/hospitals/256",
+    treatments: [
+      { name: "Aqua Peel (₩50–70K, ~$36–50)", detail: "Walk in Monday or Tuesday afternoon. No redness after, totally safe day before presenting. Ask for the aqua peel package — 40 min, you'll walk out glowing." }
+    ],
+    note: "PPEUM's signature and they're great at it. Zero downtime, near COEX, walk-in friendly. Perfect conference week pick.",
+    warning: null
+  },
+  glow_some: {
+    heading: "Rejuran S + Aqua Peel combo",
+    clinic: "Lamiche Dermatology",
+    link: "https://drlamiche.com",
+    treatments: [
+      { name: "Rejuran S + Aqua Peel (₩230–350K, ~$165–250)", detail: "Ask for Rejuran S specifically (lighter than regular Rejuran — better if it's your first time). They'll stack both in one 90-min session. Some tiny needle marks that disappear within hours." }
+    ],
+    note: "Book ahead via drlamiche.com or WhatsApp +1 657-508-8544. This is the treatment you've seen all over TikTok Korea, and Lamiche is the go-to for it.",
+    warning: null
+  },
+  texture_none: {
+    heading: "Aqua Peel + LED Finish",
+    clinic: "PPEUM Clinic — 5 min from COEX",
+    link: "https://www.gangnamunni.com/us/hospitals/256",
+    treatments: [
+      { name: "Aqua Peel + LED Finish (₩80–110K, ~$58–80)", detail: "Their best combination for pore and texture improvement with zero downtime. About 60 min. LED at the end calms everything and improves texture results. Monday or Tuesday." }
+    ],
+    note: "Walk-ins welcome. Tell them pore refinement and texture is your focus — they'll customize the peel solution.",
+    warning: null
+  },
+  texture_some: {
+    heading: "Juvelook injection",
+    clinic: "Lamiche Dermatology",
+    link: "https://drlamiche.com",
+    treatments: [
+      { name: "Juvelook (₩180–280K, ~$130–200)", detail: "PLLA + hyaluronic acid hybrid — tightens pores over time, immediate plumping visible same day. Some mild redness and micro-swelling for 12–24h. Results build over the next few weeks." }
+    ],
+    note: "The collagen-stimulating pore treatment. More dramatic than an aqua peel — book for Monday, you'll look good by Tuesday morning.",
+    warning: null
+  },
+  pigment_none: {
+    heading: "Low-fluence Pico Toning",
+    clinic: "Jiwoo Skin Clinic",
+    link: null,
+    treatments: [
+      { name: "Pico Toning (₩100–160K, ~$72–115)", detail: "Ask specifically for Pico Toning (not Pico Fractional — that has more downtime). Mild redness for 2–4 hours after. Wednesday is a good day for this — conference isn't done but you have recovery time." }
+    ],
+    note: "Gangnam Station Exit 12. English staff on request. Safe mid-conference if you don't book the day before presenting.",
+    warning: "⚠️ Don't book this the day before your poster session. Mild redness is real. Wednesday or Thursday at earliest."
+  },
+  pigment_some: {
+    heading: "PicoSure laser",
+    clinic: "Lamiche Dermatology",
+    link: "https://drlamiche.com",
+    treatments: [
+      { name: "PicoSure (₩200–400K, ~$145–290)", detail: "Their best option for stubborn spots and uneven tone. 1–2 days of redness and very mild flaking. Visible improvement in 5–7 days as your skin heals." }
+    ],
+    note: "Book for Friday only. This is not a mid-conference treatment — you need the weekend to recover.",
+    warning: "⚠️ Friday only. Do not book before Thursday. 1–2 days of visible recovery."
+  },
+  aging_none: {
+    heading: "Skinbooster (Curenex or Rejuran S)",
+    clinic: "YANN Skin Clinic or Lamiche",
+    link: "https://www.gangnamskincareclinic.com/",
+    treatments: [
+      { name: "Skinbooster (₩150–280K, ~$108–200)", detail: "Pure hydration + mild collagen stimulation. Plumping, luminosity, zero downtime. The difference from a regular moisturizer is you're getting it injected — immediate and lasting. Great for 30s+." }
+    ],
+    note: "YANN has a dedicated English interpreter for every appointment (gangnamskincareclinic.com). Lamiche is also excellent for this. Both safe Mon–Tue window.",
+    warning: null
+  },
+  aging_some: {
+    heading: "HIFU lifting (Ulthera)",
+    clinic: "Lamiche or Theme Dermatology",
+    link: "https://themedermatology.com",
+    treatments: [
+      { name: "HIFU / Ultherapy (₩350–700K, ~$250–500)", detail: "One session, significant lifting and tightening. Some swelling and soreness day 1–2. Results are immediate and continue improving for 2–3 months." }
+    ],
+    note: "Theme Dermatology (themedermatology.com) has 25+ years and 4 board-certified dermatologists. Lamiche also does this well. Book for Friday only.",
+    warning: "⚠️ Friday only. Soreness and minor swelling day 1–2. Worth it but needs the weekend."
+  },
+  scars_none: {
+    heading: "Sylfirm X (gentlest option)",
+    clinic: "Jiwoo Skin Clinic",
+    link: null,
+    treatments: [
+      { name: "Sylfirm X (₩280–450K, ~$200–325)", detail: "RF microneedling — the most gentle acne scar treatment with the least downtime. Some redness next day. Not a zero-downtime treatment but far less than CO2 fractional." }
+    ],
+    note: "Gangnam Station Exit 12. Jiwoo specializes in acne scar revision — this is their most-requested treatment for conference-goers.",
+    warning: "⚠️ Book Friday afternoon at the earliest. You'll want Saturday to look normal-ish."
+  },
+  scars_some: {
+    heading: "Sylfirm X + Rejuran combo",
+    clinic: "Jiwoo Skin Clinic",
+    link: null,
+    treatments: [
+      { name: "Sylfirm X + Rejuran (₩450–650K, ~$325–470)", detail: "Jiwoo's signature acne scar stack. RF microneedling followed by Rejuran to accelerate healing. 2–3 days of redness and some swelling. Significant results visible within a week as inflammation resolves." }
+    ],
+    note: "The full treatment. Only viable window at this conference is Friday afternoon — you need the full weekend.",
+    warning: "⚠️ Fri afternoon ONLY. 2–3 days redness and swelling. Results are worth it but you need the time."
+  },
+  unsure_none: {
+    heading: "Start with a free consultation",
+    clinic: "D&A Dermatology",
+    link: "https://koreaskinclinic.net/en/",
+    treatments: [
+      { name: "Free skin analysis consultation", detail: "They use digital skin analysis devices — you'll get actual data on your hydration, pore size, and pigmentation. Then they'll tell you what's actually worth spending on vs. what would be wasted on your skin type. Zero obligation to book anything." }
+    ],
+    note: "D&A is designed for foreign patients. English-first, no pressure, transparent pricing. koreaskinclinic.net/en/ — book via their website.",
+    warning: null
+  },
+  unsure_some: {
+    heading: "Start with a free consultation",
+    clinic: "D&A Dermatology or YANN Skin Clinic",
+    link: "https://koreaskinclinic.net/en/",
+    treatments: [
+      { name: "Free consultation + treatment recommendation", detail: "Both clinics have English support and will look at your actual skin before recommending anything. With a day of downtime flexibility you'll have more options after the consultation." }
+    ],
+    note: "YANN has a 1:1 interpreter for the whole appointment — good if you have a lot of questions. D&A is strong on skin analysis tech.",
+    warning: null
+  }
+};
+
+function setQ1(val) {
+  q1 = val;
+  document.getElementById('step1').classList.remove('active');
+  document.getElementById('step2').classList.add('active');
+}
+
+function setQ2(val) {
+  var key = q1 + '_' + val;
+  var data = results[key];
+  if (!data) return;
+
+  var html = '<div class="result-tag">Your recommendation</div>';
+  html += '<p class="result-heading">' + data.heading + '</p>';
+  html += '<p class="result-clinic">';
+  if (data.link) {
+    html += '<a href="' + data.link + '" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.9);font-weight:600;">' + data.clinic + ' →</a>';
+  } else {
+    html += data.clinic;
+  }
+  html += '</p>';
+
+  data.treatments.forEach(function(t) {
+    html += '<div class="result-treatment"><p class="result-treatment-name">' + t.name + '</p><p class="result-treatment-detail">' + t.detail + '</p></div>';
+  });
+
+  html += '<p class="result-note">' + data.note + '</p>';
+
+  if (data.warning) {
+    html += '<div class="result-warning">' + data.warning + '</div>';
+  }
+
+  document.getElementById('result-card').innerHTML = html;
+  document.getElementById('step2').classList.remove('active');
+  document.getElementById('quiz-result').classList.add('active');
+}
+
+function restartQuiz() {
+  q1 = null;
+  document.getElementById('step1').classList.add('active');
+  document.getElementById('step2').classList.remove('active');
+  document.getElementById('quiz-result').classList.remove('active');
+  document.getElementById('result-card').innerHTML = '';
+}
+</script>
+
 </body>
 </html>
